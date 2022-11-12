@@ -1,6 +1,6 @@
 <p align="center"> 
   <h1> ✨ Machamp.CC ✨ </h1>
-  <img src="https://media.giphy.com/media/NmTqx5EmcG2kg1CnKG/giphy.gif" alt="Machamp.cc" />
+  <img src="https://media.giphy.com/media/NmTqx5EmcG2kg1CnKG/giphy.gif" alt="Machamp.cc"/>
   <br />
   <p align="center"><b> Six Machamps, 24 Arms, one Pokémon Rom Hack Run and all the glory! </b> </p>
 </p>
@@ -30,4 +30,3 @@ Interested in how the run is going? Check out our site here: [Machamp.CC](https:
 ### 🤝 Feedback
 
 If you're interested in providing some feedback or getting involved, simply create an [Issue](https://github.com/cerealcommander/machamp/issues/new) and we'll get back to you!
-
