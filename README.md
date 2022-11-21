@@ -10,26 +10,27 @@
 
 # 🥊.©© What is Machamp.CC?
 
-[Machamp.CC](https://www.machamp.cc) is the chronology of a very special Inclement Emerald Pokémon Run. In this run, we'll only be using the Machop line of Pokémon to beat the game. That’s right! Only Machops, Machokes or Machamps can be used the entire length of Inclement Emerald.
+[Machamp.CC](https://www.machamp.cc) is the chronology of a very special Pokémon Inclement Emerald Run. In this run, we'll only be using the Machop line of Pokémon to beat the game. That’s right! Only Machops, Machokes or Machamps can be used the entire length of Inclement Emerald.
 
 Let's jump into it:
 
 ### 📏 Ruleset
 The ruleset is pretty simple, use only the Machop line of Pokémon to conquer the Inclement Emerald Rom hack. To help clarify what that really means, here’s a clear ruleset list defined by me, @cerealcommander:
 
--	More Caps
+- More Caps
 - Normal Mode
 - The Starter must be a Machop
 - Randomized encounters (necessary to get our first 5 Machops)
--	Not Hardcore / No Perma Death
--	No Skipping Fights
--	Do double battles if possible
-- All items are available
--	Bag usage is allowed during battles
+- Can only use Machop, Machoke or Machamp for battles.
+- Not Hardcore / No Perma Death
+- No Skipping Fights
+- Do double battles if possible
+- All items can be used
+- Bag usage is allowed during battles
 - No moves are banned
--	Trainers can only catch Dittos or a Machops the entire game (So like, you can't catch a Machoke, it’s illegal)
--	Docs allowed
-- Save states are allowed (even within battles)
+- Only Dittos and Machops can be caught (So like, you can't catch a Machoke, it’s illegal 😁)
+- Docs are allowed
+- Save states are allowed (even in the middle of battle)
 
 ### 📅 Timeline
 
