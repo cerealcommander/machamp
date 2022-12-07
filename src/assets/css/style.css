@@ -789,16 +789,16 @@ section {
   fill: #47aeff;
 }
 
-.shoutouts .iconbox-orange i {
-  color: #ffa76e;
+.shoutouts .iconbox-twitch i {
+  color: #6441a5;
 }
 
-.shoutouts .iconbox-orange:hover .icon i {
+.shoutouts .iconbox-twitch:hover .icon i {
   color: #fff;
 }
 
-.shoutouts .iconbox-orange:hover .icon path {
-  fill: #ffa76e;
+.shoutouts .iconbox-twitch:hover .icon path {
+  fill: #6441a5;
 }
 
 .shoutouts .iconbox-pink i {
