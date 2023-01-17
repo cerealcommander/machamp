@@ -12,12 +12,12 @@ body {
 }
 
 a {
-  color: #5846f9;
+  color: #00C65C;
   text-decoration: none;
 }
 
 a:hover {
-  color: #8577fb;
+  color: #63AC91;
   text-decoration: none;
 }
 
@@ -40,7 +40,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5846f9;
+  background: #00A64E;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -54,7 +54,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #7b27d8;
+  background: #63AC91;
   color: #fff;
 }
 
@@ -82,7 +82,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #5846f9;
+  border: 6px solid #00C65C;
   border-top-color: #e7e4fe;
   border-radius: 50%;
   width: 60px;
@@ -131,7 +131,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(24, 6, 185, 0.8);
+  background: #489f6f;
   padding: 12px 0;
 }
 
@@ -273,7 +273,7 @@ h6 {
 .navbar .dropdown ul a {
   padding: 10px 20px;
   font-size: 14px;
-  color: #2c4964;
+  color: #32642c;
 }
 
 .navbar .dropdown ul a i {
@@ -283,7 +283,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #5846f9;
+  color: #32642c;
 }
 
 .navbar .dropdown:hover>ul {
@@ -344,7 +344,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(28, 47, 65, 0.9);
+  background: rgba(28, 65, 28, 0.9);
   transition: 0.3s;
   z-index: 999;
 }
@@ -375,7 +375,7 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #2c4964;
+  color: #2c642d;
 }
 
 .navbar-mobile a:hover:before,
@@ -387,7 +387,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #5846f9;
+  color: #00C65C;
 }
 
 .navbar-mobile .seetimeline,
@@ -404,7 +404,7 @@ h6 {
   opacity: 1;
   visibility: visible;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgba(127, 161, 129, 0.25);
 }
 
 .navbar-mobile .dropdown ul li {
@@ -422,7 +422,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #5846f9;
+  color: #00C65C;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -436,7 +436,7 @@ h6 {
 #casa {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/casa-bg.jpg") center center no-repeat;
+  background: linear-gradient(45deg, #00C65C 0%, #489f6f 100%), url("../img/casa-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -475,7 +475,7 @@ h6 {
 
 #casa .btn-get-started:hover {
   background: #fff;
-  color: #5846f9;
+  color: #00C65C;
 }
 
 #casa .animated {
@@ -593,7 +593,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #5846f9;
+  background: #00C65C;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -633,16 +633,30 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Welcome Styles 
+--------------------------------------------------------------*/
+
+.welcome{
+  padding: 70px 0;
+}
+
+.welcome h1 {
+  font-weight: 700;
+  font-size: 42px;
+  color: #33714f;
+}
+
+/*--------------------------------------------------------------
 # Idea Styles 
 --------------------------------------------------------------*/
 .idea {
-  padding: 120px 0;
+  padding: 30px 0;
 }
 
 .idea .content h3 {
   font-weight: 600;
   font-size: 32px;
-  color: #2c4964;
+  color: #489f6f;
 }
 
 .idea .content ul {
@@ -657,7 +671,7 @@ section {
 .idea .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #5846f9;
+  color: #00C65C;
 }
 
 .idea .content p:last-child {
@@ -674,12 +688,12 @@ section {
   border-radius: 5px;
   transition: 0.5s;
   color: #fff;
-  background: linear-gradient(45deg, #5846f9 0%, #7b27d8 100%);
+  background: linear-gradient(45deg, #00C65C 0%, #489f6f 100%);
   position: relative;
 }
 
 .idea .content .read-more:hover {
-  background: linear-gradient(180deg, #5846f9 0%, #7b27d8 100%);
+  background: linear-gradient(180deg, #00C65C 0%, #489f6f 100%);
 }
 
 .idea .content .read-more i {
@@ -693,12 +707,12 @@ section {
 # Cool Stats
 --------------------------------------------------------------*/
 .stats {
-  background: linear-gradient(90deg, rgba(88, 70, 249, 0.5) 0%, rgba(123, 39, 216, 0.5) 100%), url("../img/casa-bg.jpg") center center no-repeat;
+  background: linear-gradient(90deg, #2da83d80 0%, #1b951f80 100%), url("../img/casa-bg.jpg") center center no-repeat;
   padding: 60px 0 40px 0;
 }
 
 .stats-logo {
-  background: linear-gradient(90deg, rgba(88, 70, 249, 0.5) 0%, rgba(123, 39, 216, 0.5) 100%), url("../img/stats-bg.png") center center no-repeat;
+  background: linear-gradient(90deg, #2da83d80 0%, #1b951f80 100%), url("../img/stats-bg.png") center center no-repeat;
   padding: 60px 0 40px 0;
 }
 
@@ -762,7 +776,7 @@ section {
 }
 
 .shoutouts .icon-box h4 a {
-  color: #2c4964;
+  color: #1b951f80;
   transition: ease-in-out 0.3s;
 }
 
@@ -861,7 +875,7 @@ section {
 .ruleset .icon-box i {
   font-size: 48px;
   float: left;
-  color: #5846f9;
+  color: #00C65C;
 }
 
 .ruleset .icon-box p {
@@ -895,7 +909,7 @@ section {
 .ruleset .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #5846f9;
+  color: #00C65C;
 }
 
 
@@ -911,7 +925,7 @@ section {
 .result .icon-box i {
   font-size: 48px;
   float: left;
-  color: #5846f9;
+  color: #00C65C;
 }
 
 .result .icon-box p {
@@ -970,7 +984,7 @@ section {
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq {
-  background: linear-gradient(42deg, #5846f9 0%, #7b27d8 100%);
+  background: linear-gradient(42deg, #00C65C 0%, #489f6f 100%);
 }
 
 .faq .section-title h2,
@@ -1019,7 +1033,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #8577fb;
+  color: #489f6f;
 }
 
 .faq .faq-list .icon-show,
@@ -1040,11 +1054,11 @@ section {
 }
 
 .faq .faq-list a.collapsed {
-  color: #2c4964;
+  color: #489f6f;
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #5846f9;
+  color: #00C65C;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1074,14 +1088,14 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #5846f9;
+  color: #00C65C;
   border-radius: 50%;
   padding: 8px;
 }
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #2c4964;
+  color: #489f6f;
   font-weight: 700;
   margin: 10px 0;
 }
@@ -1150,7 +1164,7 @@ section {
 .breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #3c6387;
+  color: #3c873e;
   content: "/";
 }
 
@@ -1174,7 +1188,7 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/casa-bg.jpg") center center no-repeat;
+  background: linear-gradient(45deg,#00C65C 0%, #489f6f 100%), url("../img/casa-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -1285,7 +1299,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: rgba(123, 39, 216, 0.8);
+  background: #00C65C;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 5px 5px 0;
@@ -1293,11 +1307,11 @@ section {
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #5846f9;
+  background: #00C65C;
 }
 
 #footer .copyright-wrap {
-  border-top: 1px solid #8577fb;
+  border-top: 1px solid #44AA83;
 }
 
 #footer .notes {
@@ -1331,12 +1345,9 @@ section {
   text-decoration: none;
 }
 
-
-
 /*--------------------------------------------------------------
 # Timeline
 --------------------------------------------------------------*/
-
 
 .timeline {
   list-style: none;
@@ -1453,10 +1464,10 @@ section {
           }
 
 .timeline-badge.primary {
-  background-color: #563afae6 !important;
+  background-color: #00C65C !important;
 }
 .timeline-badge.success {
-  background-color: #3f903f !important;
+  background-color: #5846f9 !important;
 }
 .timeline-badge.warning {
   background-color: #ffb62fe4 !important;
@@ -1531,12 +1542,12 @@ section {
   border-radius: 5px;
   transition: 0.5s;
   color: #fff;
-  background: linear-gradient(45deg, #5846f9 0%, #7b27d8 100%);
+  background: linear-gradient(45deg, #00C65C 0%, #489f6f 100%);
   position: relative;
 }
 
 .timeline-results:hover {
-  background: linear-gradient(180deg, #5846f9 0%, #7b27d8 100%);
+  background: linear-gradient(180deg, #00C65C 0%, #489f6f 100%);
 }
 
 .timeline-results i {
@@ -1556,7 +1567,7 @@ section {
   border-radius: 5px;
   transition: 0.5s;
   color: #fff;
-  background: linear-gradient(180deg, #00d26c 0%, #00793e 100%);
+  background: linear-gradient(180deg, #00C65C 0%, #489f6f 100%);
   position: relative;
 }
 
