@@ -1,6 +1,7 @@
 /**
 * Created for Machamp.cc using external templates
 * Author: Machamp.cc Developers
+* Site wide styles
 */
 
 /*--------------------------------------------------------------
@@ -436,6 +437,13 @@ h6 {
 #casa {
   width: 100%;
   height: 100vh;
+  background: linear-gradient(45deg, #00C65C 0%, #489f6f 100%), url("../img/casa-bg.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+#shed {
+  width: 100%;
+  height: 10vh;
   background: linear-gradient(45deg, #00C65C 0%, #489f6f 100%), url("../img/casa-bg.jpg") center center no-repeat;
   background-size: cover;
 }
@@ -1074,6 +1082,27 @@ section {
     padding: 0;
   }
 }
+
+/*--------------------------------------------------------------
+# ROMs
+--------------------------------------------------------------*/
+
+.roms {
+  background: #eeeeee;
+}
+
+.roms .romlink,
+.roms .romlink:focus {
+  padding: 8px 25px;
+  margin-left: 30px;
+  border-radius: 5px;
+  color: #fff;
+  transition: 0.3s;
+  font-size: 14px;
+  font-weight: 600;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
 
 /*--------------------------------------------------------------
 # Contact

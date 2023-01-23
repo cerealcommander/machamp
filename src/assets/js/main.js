@@ -158,7 +158,7 @@
   });
 
   /**
-   * Preloader
+   * Dom loading
    */
   let preloader = select('#preloader');
   if (preloader) {
