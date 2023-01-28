@@ -43,20 +43,23 @@
         <!-- Responsive navbar-->
         <nav id="navbar" class="navbar">
           <ul>
-            <li><a class="nav-link scrollto" href="#idea">Idea</a></li>
+            <li><a class="nav-link" href="#">Home</a></li>
+            <li class="text-white">|</li>
             <li><a class="nav-link scrollto" href="#ruleset">Rules</a></li>
             <li><a class="nav-link scrollto " href="#faq">FAQ</a></li>
             <li><a class="nav-link scrollto " href="#contact">Contact</a></li>
-            <li><a class="seetimeline scrollto" href="#roms">Explore ROM Runs</a></li>
-            <li class="dropdown"><a href="#"><span>ROMs</span> <i class="bi bi-chevron-down"></i></a>
+            <li class="dropdown"><a href="#runs"><span>Runs</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
-                <li><a href="roms/ie.html">Inclement Emerald</a></li>
-                <li><a href="roms/maxe.html">Max Emerald</a></li>
+                <li><a href="runs/ie.html">Inclement Emerald</a></li>
+                <li><a href="runs/maxe.html">Max Emerald</a></li>
               </ul>
             </li>
-          </ul>
+          
           <i class="bi bi-list mobile-nav-toggle"></i>
+            <li><a class="seetimeline scrollto" href="#runs">Explore Runs</a></li>
+          </ul>
         </nav>
+
       </div>
     </header>
     <!-- End Header -->
@@ -66,8 +69,8 @@
       <div class="container-fluid" data-aos="fade-up">
         <div class="row justify-content-center">
           <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <h1>NotLikeThis - Machamp.cc isn't ready yet</h1>
-            <h2>But it will be soon! Scroll down or click the button below to learn more!</h2>
+            <h1>Machamp.cc</h1>
+            <h2>Beating Pokémon Games 6 Machamps at a time.</h2> 
             <div><a href="#idea" class="btn-get-started scrollto">The Idea!</a></div>
           </div>
           <div class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
@@ -100,10 +103,10 @@
             <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
               <h3>What is Machamp.CC?</h3>
               <p class="">
-                <strong>Machamp.cc</strong> catalogs some very special Pokémon ROM Runs. This site catalogs the ROM hacks that have been completed using only the Machop line. That’s right! Only Machops, Machokes or Machamps can be used the entire length of any Pokémon ROM run.
+                <strong>Machamp.cc</strong> catalogs some very special Pokémon game runs. This site catalogs the Pokémon games that have been completed using only the Machop line. That’s right! Only Machops, Machokes or Machamps can be used the entire length of any Pokémon game by me, <strong>CerealCommander</strong>.
               </p>
               <p>
-                Let's use only Machamps to beat Pokémon Games! What an idea!
+                Let's learn about the rules we use!
               </p>
               <a href="#ruleset" class="read-more">Learn the Ruleset<i class="bi bi-long-arrow-right"></i></a>
             </div>
@@ -112,51 +115,64 @@
       </section>
       <!-- Section End: Idea -->
 
-        <!-- Section Start: ROMs -->
-        <section id="roms" class="roms">
+        <!-- Section Start: Runs -->
+        <section id="runs" class="runs">
           <div class="container" data-aos="fade-up">
         
             <div class="section-title">
-              <h2>ROMs </h2>
-              <p>All the ROMs Played by CerealCommander</p>
+              <h2>Runs </h2>
+              <h3>Select a Pokémon game to explore!</h3>
             </div>
         
             <div class="row">
-              <div class="col-lg-4 col-md-4 align-items-stretch" data-aos="zoom-out" data-aos-delay="100">
-                <div class="text-center">
-                  <a href="roms/ie.html">
+              <div class="col-lg-6 col-md-6 align-items-stretch " data-aos="zoom-out" data-aos-delay="100">
+                <div class="runitems text-center">
+                  <a href="runs/ie.html">
                     <img src="assets/img/ie-logo.png" class="img-fluid" alt="">
-                    <div class="timeline-badge primary"><i class="bx bx-star">In Progress</i></div>
-                    <p><small class="">Started: <i class="bx bxs-calendar-alt"></i>November 3rd, 2022 </small></p>
-                    <p><small class="">Time: <i class="bx bxs-watch"></i>99 hours</small></p>
+                    <div class="col-lg-12 col-12 text-center">
+                      <div class="progress" style="height: 60px;">
+                        <div class="progress-bar bg-rox" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">Roxanne <i class="bx bx-check"></i></div>
+                        <div class="progress-bar bg-bra" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">Brawly <i class="bx bx-check"></i></div>
+                        <div class="progress-bar bg-watt" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">Wattson <i class="bx bx-check"></i></div>
+                        <div class="progress-bar bg-flan" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">Flannery <i class="bx bx-check"></i></div>
+                        <div class="progress-bar bg-norm" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">Norman <i class="bx bx-check"></i></div>
+                        <div class="progress-bar bg-wino" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">Winona <i class="bx bx-check"></i></div>
+                        <div class="progress-bar bg-progress-alt" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">Tate & Liza <i class="bx bx-question-mark"></i></div>
+                        <div class="progress-bar bg-progress" role="progressbar" style="width: 16%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">Wallace <i class="bx bx-question-mark"></i></div>
+                      </div>
+                      <br/>
+                    </div>
+                    <p><strong>Started:</strong> <i class="bx bxs-calendar-alt"></i>  November 3rd, 2022</p>
+                    <p><strong>Time:</strong><i class="bx bxs-watch"></i>   102 hours</p>
                   </a>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-4 align-items-stretch" data-aos="zoom-out" data-aos-delay="100">
-                <div class="text-center">
-                  <a href="roms/ie.html">
-                    <img src="assets/img/ie-logo.png" class="img-fluid" alt="">
-                    <div class="timeline-badge primary"><i class="bx bx-star">In Progress</i></div>
-                    <p><small class="">Started: <i class="bx bxs-calendar-alt"></i>November 3rd, 2022 </small></p>
-                    <p><small class="">Time: <i class="bx bxs-watch"></i>99 hours</small></p>
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 align-items-stretch" data-aos="zoom-out" data-aos-delay="100">
-                <div class="text-center">
-                  <a href="roms/ie.html">
-                    <img src="assets/img/ie-logo.png" class="img-fluid" alt="">
-                    <div class="timeline-badge primary"><i class="bx bx-star">In Progress</i></div>
-                    <p><small class="">Started: <i class="bx bxs-calendar-alt"></i>November 3rd, 2022 </small></p>
-                    <p><small class="">Time: <i class="bx bxs-watch"></i>99 hours</small></p>
+              <div class="col-lg-6 col-md-6 align-items-stretch" data-aos="zoom-out" data-aos-delay="100">
+                <div class="runitems text-center">
+                  <a href="runs/maxe.html">
+                    <img src="assets/img/maxe-logo.png" class="img-fluid" alt="">
+                    <div class="col-lg-12 col-12 text-center">
+                      <div class="progress" style="height: 60px;">
+                        <div class="progress-bar bg-progress-alt" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">Roxanne <i class="bx bx-question-mark"></i></div>
+                        <div class="progress-bar bg-progress" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">Brawly <i class="bx bx-question-mark"></i></div>
+                        <div class="progress-bar bg-progress-alt" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">Wattson <i class="bx bx-question-mark"></i></div>
+                        <div class="progress-bar bg-progress" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">Flannery <i class="bx bx-question-mark"></i></div>
+                        <div class="progress-bar bg-progress-alt" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">Norman <i class="bx bx-question-mark"></i></div>
+                        <div class="progress-bar bg-progress" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">Winona <i class="bx bx-question-mark"></i></div>
+                        <div class="progress-bar bg-progress-alt" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">Tate & Liza <i class="bx bx-question-mark"></i></div>
+                        <div class="progress-bar bg-progress" role="progressbar" style="width: 16%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">Wallace <i class="bx bx-question-mark"></i></div>
+                      </div>
+                      <br/>
+                    </div>
+                    <p><strong>Started:</strong><i class="bx bxs-calendar-alt"></i> --- </p>
+                    <p><strong>Time:</strong> <i class="bx bxs-watch"></i> --- </p>
                   </a>
                 </div>
               </div>
             </div>
-  
           </div>
         </section>
-        <!-- Section End: ROMs -->
+        <!-- Section End: Runs -->
 
       <!-- Section Start: Ruleset -->
       <section id="ruleset" class="ruleset">
@@ -164,21 +180,21 @@
 
           <div class="section-title">
             <h2>Common rules</h2>
-            <p>To clarify exactly what we mean by "Machamp only" runs, here’s a the official ruleset list:</p>
+            <p>To clarify exactly what we mean by "Machamp only" runs, here’s the official ruleset:</p>
           </div>
 
           <div class="row content">
             <ul>
-              <li><i class="bi bi-check-circle"></i> Can only use Machop, Machoke or Machamp for battles.</li>
-              <li><i class="bi bi-check-circle"></i> Not Hardcore / No Perma Death</li>
+              <li><i class="bi bi-check-circle"></i> Can only use Machop, Machoke or Machamp the entire game.</li>
+              <li><i class="bi bi-check-circle"></i> Only Dittos and Machops can be caught (So like, you can't catch a Machoke, it’s illegal 😁)</li>
               <li><i class="bi bi-check-circle"></i> No Skipping Fights</li>
               <li><i class="bi bi-check-circle"></i> Do double battles if possible</li>
               <li><i class="bi bi-check-circle"></i> All items can be used</li>
               <li><i class="bi bi-check-circle"></i> Bag usage is allowed during battles</li>
               <li><i class="bi bi-check-circle"></i> No moves are banned</li>
-              <li><i class="bi bi-check-circle"></i> Only Dittos and Machops can be caught (So like, you can't catch a Machoke, it’s illegal 😁)</li>
+              <li><i class="bi bi-check-circle"></i> Not Hardcore / No Perma Death</li>
               <li><i class="bi bi-check-circle"></i> Docs are allowed</li>
-              <li><i class="bi bi-check-circle"></i> Save states are allowed (even in the middle of battle)</li>
+
             </ul>
           </div>
 
@@ -239,10 +255,10 @@
               </li>
   
               <li data-aos="fade-up" data-aos-delay="400">
-                <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">How long have your ROM attempts taken? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">How long have your runs taken? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                 <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
                   <p>
-                    We haven't finished any ROMs yet. Check out the ROMs in process under the <a href="#roms"><strong>ROM</strong></a> section of the site. 
+                    We haven't finished any runs yet. Check out the runs in process under the <a href="#runs"><strong>Runs</strong></a> section of the site. 
                   </p>
                 </div>
               </li>

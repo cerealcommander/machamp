@@ -13,7 +13,7 @@ body {
 }
 
 a {
-  color: #00C65C;
+  color: #FA7A2F;
   text-decoration: none;
 }
 
@@ -29,39 +29,6 @@ h4,
 h5,
 h6 {
   font-family: "Poppins", sans-serif;
-}
-
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
-.back-to-top {
-  position: fixed;
-  visibility: hidden;
-  opacity: 0;
-  right: 15px;
-  bottom: 15px;
-  z-index: 996;
-  background: #00A64E;
-  width: 40px;
-  height: 40px;
-  border-radius: 4px;
-  transition: all 0.4s;
-}
-
-.back-to-top i {
-  font-size: 28px;
-  color: #fff;
-  line-height: 0;
-}
-
-.back-to-top:hover {
-  background: #63AC91;
-  color: #fff;
-}
-
-.back-to-top.active {
-  visibility: visible;
-  opacity: 1;
 }
 
 /*--------------------------------------------------------------
@@ -83,7 +50,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #00C65C;
+  border: 6px solid #FA7A2F;
   border-top-color: #e7e4fe;
   border-radius: 50%;
   width: 60px;
@@ -132,7 +99,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: #489f6f;
+  background: #bd5112;
   padding: 12px 0;
 }
 
@@ -151,6 +118,39 @@ h6 {
 }
 
 #header .logo img {
+  max-height: 40px;
+}
+
+/*--------------------------------------------------------------
+# Header Emerald
+--------------------------------------------------------------*/
+#header.header-em {
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 20px 0;
+}
+
+#header.header-em.header-scrolled ,
+#header.header-em.header-inner-pages{
+  background: #1b951f;
+  padding: 12px 0;
+}
+
+#header.header-em.logo {
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#header.header-em.logo a {
+  color: #fff;
+}
+
+#header.header-em.logo img {
   max-height: 40px;
 }
 
@@ -345,7 +345,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(28, 65, 28, 0.9);
+  background: #1c411ce6;
   transition: 0.3s;
   z-index: 999;
 }
@@ -388,7 +388,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #00C65C;
+  color: #FA7A2F;
 }
 
 .navbar-mobile .seetimeline,
@@ -423,7 +423,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #00C65C;
+  color: #FA7A2F;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -437,14 +437,14 @@ h6 {
 #casa {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, #00C65C 0%, #489f6f 100%), url("../img/casa-bg.jpg") center center no-repeat;
+  background: linear-gradient(45deg, #FA7A2F 0%, #bd5112 100%), url("../img/casa-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 
 #shed {
   width: 100%;
   height: 10vh;
-  background: linear-gradient(45deg, #00C65C 0%, #489f6f 100%), url("../img/casa-bg.jpg") center center no-repeat;
+  background: linear-gradient(45deg, #00C65C 0%, #1b951f 100%), url("../img/casa-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -483,7 +483,7 @@ h6 {
 
 #casa .btn-get-started:hover {
   background: #fff;
-  color: #00C65C;
+  color: #FA7A2F;
 }
 
 #casa .animated {
@@ -601,7 +601,32 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #00C65C;
+  background: #FA7A2F;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.section-title-em {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title-em h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.section-title-em h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #1b951f;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -651,7 +676,64 @@ section {
 .welcome h1 {
   font-weight: 700;
   font-size: 42px;
-  color: #33714f;
+  color: #bd5112;
+}
+
+/*--------------------------------------------------------------
+# Welcome Emerald Styles 
+--------------------------------------------------------------*/
+
+.welcome-em{
+  padding: 70px 0;
+}
+
+.welcome-em h1 {
+  font-weight: 700;
+  font-size: 42px;
+  color: #1b951f;
+}
+
+
+/*--------------------------------------------------------------
+# Scrollspy button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #ff9100;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: #bd4500;
+  color: #fff;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.back-to-top.back-to-top-em{
+  background: #1b951f;
+}
+
+.back-to-top.back-to-top-em:hover {
+  background: #00C65C;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -664,7 +746,7 @@ section {
 .idea .content h3 {
   font-weight: 600;
   font-size: 32px;
-  color: #489f6f;
+  color: #bd5112;
 }
 
 .idea .content ul {
@@ -679,7 +761,7 @@ section {
 .idea .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #00C65C;
+  color: #FA7A2F;
 }
 
 .idea .content p:last-child {
@@ -696,12 +778,12 @@ section {
   border-radius: 5px;
   transition: 0.5s;
   color: #fff;
-  background: linear-gradient(45deg, #00C65C 0%, #489f6f 100%);
+  background: linear-gradient(45deg, #FA7A2F 0%, #bd5112 100%);
   position: relative;
 }
 
 .idea .content .read-more:hover {
-  background: linear-gradient(180deg, #00C65C 0%, #489f6f 100%);
+  background: linear-gradient(180deg, #FA7A2F 0%, #bd5112 100%);
 }
 
 .idea .content .read-more i {
@@ -712,15 +794,72 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Idea Emerald 
+--------------------------------------------------------------*/
+.idea-em {
+  padding: 30px 0;
+}
+
+.idea-em .content h3 {
+  font-weight: 600;
+  font-size: 32px;
+  color: #1b951f;
+}
+
+.idea-em .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.idea-em .content ul li {
+  padding-bottom: 10px;
+}
+
+.idea-em .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #00C65C;
+}
+
+.idea-em .content p:last-child {
+  margin-bottom: 0;
+}
+
+.idea-em .content .read-more {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 50px 10px 28px;
+  border-radius: 5px;
+  transition: 0.5s;
+  color: #fff;
+  background: linear-gradient(45deg, #00C65C 0%, #1b951f 100%);
+  position: relative;
+}
+
+.idea-em .content .read-more:hover {
+  background: linear-gradient(180deg, #00C65C 0%, #1b951f 100%);
+}
+
+.idea-em .content .read-more i {
+  font-size: 22px;
+  position: absolute;
+  right: 20px;
+  top: 12px;
+}
+
+/*--------------------------------------------------------------
 # Cool Stats
 --------------------------------------------------------------*/
 .stats {
-  background: linear-gradient(90deg, #2da83d80 0%, #1b951f80 100%), url("../img/casa-bg.jpg") center center no-repeat;
+  background: linear-gradient(90deg, #2da83d80 0%, #1b951f 100%), url("../img/casa-bg.jpg") center center no-repeat;
   padding: 60px 0 40px 0;
 }
 
 .stats-logo {
-  background: linear-gradient(90deg, #2da83d80 0%, #1b951f80 100%), url("../img/stats-bg.png") center center no-repeat;
+  background: linear-gradient(90deg, #2da83d80 0%, #1b951f 100%), url("../img/stats-bg.png") center center no-repeat;
   padding: 60px 0 40px 0;
 }
 
@@ -784,8 +923,12 @@ section {
 }
 
 .shoutouts .icon-box h4 a {
-  color: #1b951f80;
+  color: #1b951f;
   transition: ease-in-out 0.3s;
+}
+
+.shoutouts a {
+  color: #1b951f;
 }
 
 .shoutouts .icon-box p {
@@ -848,7 +991,7 @@ section {
 }
 
 .shoutouts .iconbox-red i {
-  color: #ff5828;
+  color: #1b951f;
 }
 
 .shoutouts .iconbox-red:hover .icon i {
@@ -856,7 +999,7 @@ section {
 }
 
 .shoutouts .iconbox-red:hover .icon path {
-  fill: #ff5828;
+  fill: #1b951f;
 }
 
 .shoutouts .iconbox-teal i {
@@ -883,7 +1026,17 @@ section {
 .ruleset .icon-box i {
   font-size: 48px;
   float: left;
-  color: #00C65C;
+  color: #FA7A2F;
+}
+
+.ruleset .ruleset-em .icon-box i {
+  font-size: 48px;
+  float: left;
+  color: #1b951f;
+}
+
+.ruleset .ruleset-em a {
+  color: #1b951f;
 }
 
 .ruleset .icon-box p {
@@ -917,9 +1070,12 @@ section {
 .ruleset .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #00C65C;
+  color: #FA7A2F;
 }
 
+.ruleset .ruleset-em .content ul i {
+  color: #1b951f;
+}
 
 /*--------------------------------------------------------------
 # Result
@@ -933,7 +1089,7 @@ section {
 .result .icon-box i {
   font-size: 48px;
   float: left;
-  color: #00C65C;
+  color: #FA7A2F;
 }
 
 .result .icon-box p {
@@ -992,7 +1148,7 @@ section {
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq {
-  background: linear-gradient(42deg, #00C65C 0%, #489f6f 100%);
+  background: linear-gradient(42deg, #FA7A2F 0%, #bd5112 100%);
 }
 
 .faq .section-title h2,
@@ -1041,7 +1197,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #489f6f;
+  color: #bd5112;
 }
 
 .faq .faq-list .icon-show,
@@ -1062,11 +1218,11 @@ section {
 }
 
 .faq .faq-list a.collapsed {
-  color: #489f6f;
+  color: #bd5112;
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #00C65C;
+  color: #FA7A2F;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1084,15 +1240,15 @@ section {
 }
 
 /*--------------------------------------------------------------
-# ROMs
+# Runs
 --------------------------------------------------------------*/
 
-.roms {
+.runs {
   background: #eeeeee;
 }
 
-.roms .romlink,
-.roms .romlink:focus {
+.runs .runlink,
+.runs .runlink:focus {
   padding: 8px 25px;
   margin-left: 30px;
   border-radius: 5px;
@@ -1117,14 +1273,14 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #00C65C;
+  color: #FA7A2F;
   border-radius: 50%;
   padding: 8px;
 }
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #489f6f;
+  color: #bd5112;
   font-weight: 700;
   margin: 10px 0;
 }
@@ -1217,7 +1373,7 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  background: linear-gradient(45deg,#00C65C 0%, #489f6f 100%), url("../img/casa-bg.jpg") center center no-repeat;
+  background: linear-gradient(45deg,#FA7A2F 0%, #bd5112 100%), url("../img/casa-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -1328,7 +1484,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #00C65C;
+  background: #FA7A2F;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 5px 5px 0;
@@ -1336,7 +1492,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #00C65C;
+  background: #FA7A2F;
 }
 
 #footer .copyright-wrap {
@@ -1372,6 +1528,13 @@ section {
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
   text-decoration: none;
+}
+
+#footer.footer-em {
+  color: #fff;
+  font-size: 14px;
+  background: linear-gradient(45deg,#00C65C 0%, #1b951f 100%), url("../img/casa-bg.jpg") center center no-repeat;
+  background-size: cover;
 }
 
 /*--------------------------------------------------------------
@@ -1493,6 +1656,9 @@ section {
           }
 
 .timeline-badge.primary {
+  background-color: #FA7A2F !important;
+}
+.timeline-badge.primary-em {
   background-color: #00C65C !important;
 }
 .timeline-badge.success {
@@ -1571,12 +1737,13 @@ section {
   border-radius: 5px;
   transition: 0.5s;
   color: #fff;
-  background: linear-gradient(45deg, #00C65C 0%, #489f6f 100%);
+  background: linear-gradient(45deg, #00C65C 0%, #1b951f 100%);
   position: relative;
 }
 
 .timeline-results:hover {
-  background: linear-gradient(180deg, #00C65C 0%, #489f6f 100%);
+  background: linear-gradient(180deg, #00C65C 0%, #1b951f 100%);
+  color:#000;
 }
 
 .timeline-results i {
@@ -1596,7 +1763,7 @@ section {
   border-radius: 5px;
   transition: 0.5s;
   color: #fff;
-  background: linear-gradient(180deg, #00C65C 0%, #489f6f 100%);
+  background: linear-gradient(180deg, #00C65C 0%, #1b951f 100%);
   position: relative;
 }
 
@@ -1605,4 +1772,19 @@ section {
   position: absolute;
   right: 20px;
   top: 18px;
+}
+
+
+/*--------------------------------------------------------------
+# Run Items Menu
+--------------------------------------------------------------*/
+
+.runs .runitems a {
+  color: #000;
+  text-decoration: none;
+}
+
+.runs .runitems a:before {
+  color: #000;
+  text-decoration: none;
 }
