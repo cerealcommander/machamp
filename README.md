@@ -4,18 +4,18 @@
     <img src="https://media.giphy.com/media/NmTqx5EmcG2kg1CnKG/giphy.gif" alt="Machamp.cc"/>
   </div>
   <br />
-  <p align="center"><b> Six Machamps, 24 Arms, one Pokémon Rom Hack Run and all the glory! </b> </p>
+  <p align="center"><b> Six Machamps, 24 Arms, one idea with many Pokemon runs ahead. </b> </p>
 </p>
 
 
 # 🥊.©© What is Machamp.CC?
 
-[Machamp.CC](https://www.machamp.cc) is the chronology of a very special Pokémon Inclement Emerald Run. In this run, we'll only be using the Machop line of Pokémon to beat the game. That’s right! Only Machops, Machokes or Machamps can be used the entire length of Inclement Emerald.
+[Machamp.CC](https://www.machamp.cc) catalogs some very special Pokémon runs. This is a static site that catalogs the Pokémon games that have been completed using only the Machop line. That’s right! Only Machops, Machokes or Machamps can be used the entire length of any Pokémon game by me, **CerealCommander**.
 
 Let's jump into it:
 
 ### 📏 Ruleset
-The ruleset is pretty simple, use only the Machop line of Pokémon to conquer the Inclement Emerald Rom hack. To help clarify what that really means, here’s a clear ruleset list defined by me, @cerealcommander:
+The ruleset is pretty simple, use only the Machop line of Pokémon to conquer Pokémon runs. To help clarify what that really means, here’s a clear ruleset list defined by me, @cerealcommander:
 
 - More Caps
 - Normal Mode

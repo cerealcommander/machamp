@@ -268,7 +268,7 @@ h6 {
 }
 
 .navbar .dropdown ul li {
-  min-width: 200px;
+  min-width: 120px;
 }
 
 .navbar .dropdown ul a {
@@ -436,14 +436,14 @@ h6 {
 
 #casa {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   background: linear-gradient(45deg, #FA7A2F 0%, #bd5112 100%), url("../img/casa-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 
 #shed {
   width: 100%;
-  height: 10vh;
+  height: 20vh;
   background: linear-gradient(45deg, #00C65C 0%, #1b951f 100%), url("../img/casa-bg.jpg") center center no-repeat;
   background-size: cover;
 }
@@ -573,7 +573,12 @@ h6 {
 # General
 --------------------------------------------------------------*/
 section {
-  padding: 100px 0;
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+.section-run {
+  padding: 60px 0;
   overflow: hidden;
 }
 
